@@ -1,0 +1,18 @@
+[ 2016-07-30T17:41:11+08:00 ] ::1 /git/tp-oauth2-login/src/tp-oauth2-login/index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001781s ]
+ERR: 无法加载模块:Login
+
+[ 2016-07-30T17:51:57+08:00 ] ::1 /git/tp-oauth2-login/src/tp-oauth2-login/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+ERR: 无法加载模块:Index
+
+[ 2016-07-30T17:56:13+08:00 ] ::1 /git/tp-oauth2-login/src/tp-oauth2-login/index.php/authorize
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+ERR: 无法加载模块:Authorize
+

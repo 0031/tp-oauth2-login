@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><a href="http://localhost/git/oauth2-tp-login/index.php/Home/Login/login?client_id=cab&client_secret=cabpass&response_type=code&redirect_uri=http://www.qxcwe.cn/">点击这里开启蟋蚁博客登录</a>

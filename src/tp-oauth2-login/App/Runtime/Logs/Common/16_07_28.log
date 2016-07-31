@@ -1,0 +1,6 @@
+[ 2016-07-28T14:40:05+08:00 ] ::1 /login/index.php/response&response_type=code?error=invalid_request&error_description=Invalid+or+missing+response+type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+ERR: 无法加载模块:Response&response_type=code
+

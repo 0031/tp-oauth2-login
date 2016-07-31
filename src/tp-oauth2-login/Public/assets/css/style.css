@@ -1,0 +1,196 @@
+@charset "UTF-8";
+body {
+  min-height: 400px;
+  min-width: 300px;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 13px;
+  position: relative;
+  direction: ltr;
+  color: #777;
+  overflow-x: hidden;
+  overflow-y: scroll; }
+
+/*隐藏滚动条*/
+::-webkit-scrollbar {
+  display: none; }
+
+.login-box {
+  max-width: 420px;
+  margin: 0 auto; }
+  .login-box .header {
+    margin-bottom: 20px; }
+    .login-box .header > img {
+      margin: 0 auto;
+      width: 50px;
+      height: 50px; }
+
+/* iphone5 320px */
+/* iphone6 375px */
+/* iphone6s 414px */
+@media screen and (max-width: 420px) {
+  .login-box {
+    max-width: 400px; } }
+@media screen and (max-width: 375px) {
+  .login-box {
+    max-width: 350px; } }
+@media screen and (max-width: 320px) {
+  .login-box {
+    max-width: 300px; } }
+.panel {
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0; }
+  .panel .panel-body {
+    border-radius: 4px; }
+    .panel .panel-body > p {
+      margin: 0; }
+
+.login-form h4, .register-form h4 {
+  font-size: 1.8em; }
+.login-form .user-info, .register-form .user-info {
+  padding: 0 20px; }
+  .login-form .user-info > .form-group, .register-form .user-info > .form-group {
+    margin-left: 0;
+    margin-right: 0; }
+  .login-form .user-info > .row, .register-form .user-info > .row {
+    margin-top: 20px;
+    margin-bottom: 10px; }
+    .login-form .user-info > .row > .col-sm-7, .login-form .user-info > .row > .col-sm-5, .register-form .user-info > .row > .col-sm-7, .register-form .user-info > .row > .col-sm-5 {
+      line-height: 34px; }
+.login-form .input-group > input, .register-form .input-group > input {
+  background-color: rgba(255, 255, 255, 0.3); }
+.login-form .icheck-remember, .register-form .icheck-remember {
+  height: 34px; }
+  .login-form .icheck-remember > div, .register-form .icheck-remember > div {
+    top: -2px; }
+  .login-form .icheck-remember > label:hover, .register-form .icheck-remember > label:hover {
+    cursor: pointer; }
+
+.register-form > .user-info > .row.text-right {
+  margin: 25px auto 30px auto; }
+
+.register-btn.visible-xs, .have-account.visible-xs {
+  margin-top: 20px; }
+
+@media screen and (max-width: 420px) {
+  .login-form h4, .register-form h4 {
+    font-size: 1.6em; }
+  .login-form .user-info, .register-form .user-info {
+    padding: 0 10px; }
+    .login-form .user-info > .form-group, .register-form .user-info > .form-group {
+      margin-bottom: 10px; }
+    .login-form .user-info > .row, .register-form .user-info > .row {
+      margin-top: 10px;
+      margin-bottom: 5px; }
+      .login-form .user-info > .row > .col-sm-7, .login-form .user-info > .row > .col-sm-5, .register-form .user-info > .row > .col-sm-7, .register-form .user-info > .row > .col-sm-5 {
+        line-height: 30px; }
+  .login-form .input-group > input, .register-form .input-group > input {
+    background-color: rgba(255, 255, 255, 0.3); }
+  .login-form .icheck-remember, .register-form .icheck-remember {
+    height: 34px; }
+    .login-form .icheck-remember > div, .register-form .icheck-remember > div {
+      top: -2px; }
+    .login-form .icheck-remember > label:hover, .register-form .icheck-remember > label:hover {
+      cursor: pointer; }
+
+  .register-form > .user-info > .row.text-right {
+    margin: 10px auto 15px auto; }
+
+  .register-btn.visible-xs, .have-account.visible-xs {
+    margin-top: 10px; }
+
+  .btn-lg, .btn-group-lg > .btn {
+    padding: 8px 14px;
+    font-size: 14px; } }
+.show-pwd:hover {
+  cursor: pointer; }
+
+.text-with-hr {
+  text-align: center;
+  position: relative;
+  z-index: 2; }
+  .text-with-hr span {
+    display: inline-block;
+    padding: 5px;
+    font-weight: 700; }
+
+.other-way {
+  margin-top: 10px;
+  margin-bottom: 15px; }
+
+.btn-weibo, .btn-weibo:active, .btn-comments, .btn-comments:active {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 25px;
+  font-weight: 300;
+  border: none;
+  border-radius: 25px;
+  background: #d6d6d6;
+  margin: 0 7.5%; }
+
+.btn-weibo:hover {
+  background: #f01400; }
+
+.btn-comments:hover {
+  background: #24b533; }
+
+.btn:hover i {
+  color: #fff; }
+
+.input-muted, .input-muted:focus {
+  border-color: #0e90d2; }
+
+.input-primary, .input-primary:focus {
+  border-color: #3bb4f2; }
+
+.input-success, .input-success:focus {
+  border-color: #5eb95e; }
+
+.input-info, .input-info:focus {
+  border-color: #31708f; }
+
+.input-warning, .input-warning:focus {
+  border-color: #f37b1d; }
+
+.input-danger, .input-danger:focus {
+  border-color: #dd514c; }
+
+.alert {
+  color: #8B6420;
+  background: #edbc6c;
+  border: 1px solid #edbc6c; }
+
+.alert.alert-info {
+  color: #0f5d84;
+  background: #23b7e5;
+  border: 1px solid #23b7e5; }
+
+.alert.alert-success {
+  color: #1b601c;
+  background: #2baab1;
+  border: 1px solid #2baab1; }
+
+.alert.alert-danger {
+  color: #691715;
+  background: #e36159;
+  border: 1px solid #e36159; }
+
+.alert.alert-custom {
+  background-color: #fff;
+  border-left: 5px solid; }
+
+.alert.alert-custom.alert-info {
+  border-color: #23b7e5; }
+
+.alert.alert-custom.alert-success {
+  border-color: #2baab1; }
+
+.alert.alert-custom.alert-warning {
+  border-color: #edbc6c; }
+
+.alert.alert-custom.alert-danger {
+  border-color: #e36159; }

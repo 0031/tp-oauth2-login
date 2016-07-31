@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><a href="http://localhost/git/tp-oauth2-login/index.php/Home/Login/login?client_id=demoapp&client_secret=demopass&response_type=code&redirect_uri=http://localhost/git/tp-login-test/index.php/Home/Index/callback">点击这里开启蟋蚁博客登录</a>

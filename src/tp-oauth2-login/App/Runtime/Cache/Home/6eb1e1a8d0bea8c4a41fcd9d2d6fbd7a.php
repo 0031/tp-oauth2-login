@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>蟋蚁博客oauth2授权登录
